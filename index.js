@@ -6,7 +6,7 @@ let divClientHeight = document.getElementById("sister").clientHeight;
 console.log(divClientHeight);
 
 
-canvas.height = window.innerHeight;
+canvas.height = divClientHeight;
 canvas.width = divClientWidth;
 
 // colores random dentro de un array
